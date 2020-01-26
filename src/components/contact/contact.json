@@ -1,0 +1,14 @@
+{
+  "title": "Contact",
+  "parag": "Voor meer informatie etc kunt u contact met ons opnemen!",
+  "contactOptions": [
+    {
+      "label": "Optredens",
+      "action": "Email naar <a href=\"mailto:martijnnieuwenhuizen@icloud.com\">martijnnieuwenhuizen@icloud.com</a>"
+    },
+    {
+      "label": "Video",
+      "action": "Bel naar 0621076872"
+    }
+  ]
+}

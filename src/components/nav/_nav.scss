@@ -1,0 +1,29 @@
+.nav {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__item {
+    padding: 0;
+    margin: $spacing-s $spacing-m $spacing-s 0;
+  }
+  &__link {
+    padding: 0 $spacing-s;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 3px solid darken($color-primary, 20);
+
+    transition: 0.1s ease-in border-color;
+
+    &[data-active='true'] {
+      font-weight: bold;
+    }
+    &:hover,
+    &:focus {
+      border-bottom-color: $color-primary;
+    }
+  }
+}

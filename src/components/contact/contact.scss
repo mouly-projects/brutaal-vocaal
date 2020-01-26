@@ -1,0 +1,22 @@
+.contact {
+  &__contact-option-list {
+  }
+
+  &__contact-option-item {
+    display: flex;
+    margin: 0 0 $spacing-s;
+  }
+
+  &__contact-option-label {
+    min-width: 6rem;
+    margin: 0;
+    padding: 0 $spacing-m 0 0;
+
+    font-weight: bold;
+  }
+  &__contact-option-action {
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+  }
+}

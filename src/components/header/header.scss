@@ -1,0 +1,17 @@
+.header {
+  padding-top: $spacing-m;
+  padding-bottom: $spacing-m;
+  margin-bottom: $spacing-xl;
+
+  @media (min-width: $breakpoint-m) {
+    padding-top: $spacing-l;
+    padding-bottom: $spacing-l;
+  }
+
+  &__title {
+    margin: 0;
+  }
+  &__nav {
+    margin: $spacing-s 0 0;
+  }
+}

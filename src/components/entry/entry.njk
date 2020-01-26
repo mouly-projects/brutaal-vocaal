@@ -1,0 +1,7 @@
+<article class="entry">
+  <h1 class="entry__title">{{ title }}</h1>
+
+  {%- for text in texts -%}
+    <p>{{ text | safe }}</p>
+  {%- endfor -%}
+</article>

@@ -1,0 +1,25 @@
+{% extends '../layout/default.njk' %}
+
+{% block body %}
+  {%- component 'header', header -%}
+
+  <main>
+    <div class="constrain-max">
+      <div class="two-one page-item__bottom" id="dirigent">
+        <div class="two-one__left">
+          {%- component 'entry', dirigentText -%}
+        </div>
+
+        <div class="two-one__right">
+          <img src="/static/img/koor-vierkant.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="colored-square">
+      <div class="page-item constrain-max">
+        {%- component 'contact' -%}
+      </div>
+    </div>
+  </main>
+{% endblock %}

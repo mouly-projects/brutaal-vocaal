@@ -1,0 +1,13 @@
+<section id="contact">
+  <h2>{{ title }}</h2>
+  <p>{{ parag | safe }}</p>
+
+  <dl class="contact__contact-option-list">
+    {% for contactOption in contactOptions %}
+      <div class="contact__contact-option-item">
+        <dt class="contact__contact-option-label">{{ contactOption.label }}:</dt>
+        <dd class="contact__contact-option-action">{{ contactOption.action | safe }}</dd>
+      </div>
+    {% endfor %}
+  </dl>
+</section>
