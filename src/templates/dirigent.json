@@ -4,17 +4,17 @@
       "navItems": [
         {
           "label": "Het koor",
-          "href": "/templates/index.html",
+          "href": "/",
           "active": false
         },
         {
           "label": "Optredens",
-          "href": "/templates/index.html#optredens",
+          "href": "/#optredens",
           "active": false
         },
         {
           "label": "Dirigent",
-          "href": "/templates/dirigent.html",
+          "href": "/dirigent",
           "active": true
         },
         {
