@@ -5,7 +5,7 @@
         {
           "label": "Het koor",
           "href": "/",
-          "active": true
+          "active": false
         },
         {
           "label": "Optredens",
@@ -25,7 +25,7 @@
         {
           "label": "Home extra breed",
           "href": "/home",
-          "active": false
+          "active": true
         }
       ]
     }

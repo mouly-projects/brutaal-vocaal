@@ -21,6 +21,11 @@
           "label": "Contact",
           "href": "#contact",
           "active": false
+        },
+        {
+          "label": "Home extra breed",
+          "href": "/home",
+          "active": false
         }
       ]
     }

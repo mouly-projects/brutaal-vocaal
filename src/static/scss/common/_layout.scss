@@ -1,8 +1,8 @@
 // Constrain list
 $constrain-xl: 80rem;
 $constrain-l: 65rem;
-$constrain-m: 43rem;
-$constrain-s: 1rem;
+$constrain-m: 50rem;
+$constrain-s: 43rem;
 
 // Spacing list
 $spacing-xxl: 6rem;
@@ -28,8 +28,11 @@ $avoid-touching-the-browser-edge: $spacing-m;
   margin: 0 auto;
   padding: 0 $avoid-touching-the-browser-edge;
 }
-.constrain-text {
+.constrain-inner {
   max-width: $constrain-m;
+}
+.constrain-text {
+  max-width: $constrain-s;
   margin: 0 auto;
   padding: 0 $avoid-touching-the-browser-edge;
 }
@@ -68,7 +71,7 @@ $avoid-touching-the-browser-edge: $spacing-m;
 }
 
 article {
-  max-width: $constrain-m;
+  max-width: $constrain-s;
 }
 
 .colored-square {
