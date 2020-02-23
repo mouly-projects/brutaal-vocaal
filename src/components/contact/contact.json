@@ -1,14 +1,14 @@
 {
   "title": "Contact",
-  "parag": "Voor meer informatie etc kunt u contact met ons opnemen!",
+  "parag": "Voor meer informatie kunt u contact met ons opnemen",
   "contactOptions": [
     {
-      "label": "Optredens",
-      "action": "Email naar <a href=\"mailto:martijnnieuwenhuizen@icloud.com\">martijnnieuwenhuizen@icloud.com</a>"
+      "label": "Email",
+      "action": "<a href=\"mailto:fien-jansen@gmail.com\">fien-jansen@gmail.com</a>"
     },
     {
-      "label": "Video",
-      "action": "Bel naar 0621076872"
+      "label": "Tel",
+      "action": "<a href=\"tel:0642308522\">06 - 42 30 85 22</a>"
     }
   ]
 }

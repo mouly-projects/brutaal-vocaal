@@ -1,28 +1,30 @@
 {
   "gigs": [
     {
+      "fullDate": "13-06-2019",
+      "day": "13",
+      "month": "Jun",
+      "location": "Korendag ",
+      "city": "Monnickendam",
+      "href": "",
+      "past": true
+    },
+    {
+      "fullDate": "26-10-2019",
+      "day": "26",
+      "month": "Okt",
+      "location": "Kunsttiendaagse - tijdens de fietskunstroute",
+      "city": "Bergen",
+      "href": "",
+      "past": true
+    },
+    {
       "fullDate": "01-01-2020",
-      "day": "1",
-      "month": "Jan",
-      "location": "De Groene Tent",
-      "city": "Apeldoorn",
-      "href": "www.google.com"
-    },
-    {
-      "fullDate": "10-01-2020",
-      "day": "10",
-      "month": "Jan",
-      "location": "De Groene Tent",
-      "city": "Apeldoorn",
+      "day": "29",
+      "month": "Mrt",
+      "location": "Voorjaarsconcert - Tijd voor liefde, lente en leven",
+      "city": "Ruïnekerk, Bergen",
       "href": ""
-    },
-    {
-      "fullDate": "17-03-2020",
-      "day": "17",
-      "month": "Mar",
-      "location": "De Groene Tent",
-      "city": "Apeldoorn",
-      "href": "www.google.com"
     }
   ]
 }

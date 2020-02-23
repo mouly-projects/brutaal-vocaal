@@ -5,30 +5,24 @@
 
   <main>
     <div class="constrain-max">
-      <div class="two-one" id="het-koor">
-        <div class="two-one__left">
-          <img src="/static/img/koor-vierkant.jpg" alt="">
+      <div id="het-koor">
+        <img src="/static/img/koor.jpg" alt="">
+      </div>
 
-          <div id="optredens" class="page-item">
-            <h2>Optredens</h2>
-            {%- component 'gigs' -%}
-          </div>
+      <div class="constrain-max">
+        <div class="section-item">
+          {%- component 'entry', entryText -%}
         </div>
+      </div>
 
-        <div class="two-one__right">
-          <div class="constrain-text">
-            {%- component 'entry', entryText -%}
-          </div>
-        </div>
+      <div id="optredens" class="page-item">
+        <h2>Optredens</h2>
+        {%- component 'gigs' -%}
       </div>
 
       <div class="two-one page-item" id="dirigent">
         <div class="two-one__left">
           {%- component 'entry', dirigentText -%}
-        </div>
-
-        <div class="two-one__right">
-          <img src="/static/img/koor-vierkant.jpg" alt="">
         </div>
       </div>
     </div>

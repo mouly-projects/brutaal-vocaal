@@ -1,9 +1,14 @@
 <ol class="gigs">
   {%- for gig in gigs -%}
-    <li class="gig" data-date="{{ gig.fullDate }}" data-module="gigs/Gig">
+    {% set classes = {
+  'gig': true,
+  'gig--past': gig.past === true
+} | classes %}
+
+    <li class="{{ classes }}" data-date="{{ gig.fullDate }}" data-module="gigs/Gig">
       <div class="gig__date">
         {{ gig.day }}
-        {{ gig.month }}
+        {{ gig.month | safe }}
       </div>
 
       <div>
