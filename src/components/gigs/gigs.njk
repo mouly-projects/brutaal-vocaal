@@ -1,24 +1,30 @@
 <ol class="gigs">
-  {%- for gig in gigs -%}
-    {% set classes = {
+  {% for year in years %}
+
+    <h3>{{ year.label }}</h3>
+
+    {%- for gig in year.gigs -%}
+      {% set classes = {
   'gig': true,
   'gig--past': gig.past === true
 } | classes %}
 
-    <li class="{{ classes }}" data-date="{{ gig.fullDate }}" data-module="gigs/Gig">
-      <div class="gig__date">
-        {{ gig.day }}
-        {{ gig.month | safe }}
-      </div>
+      <li class="{{ classes }}" data-date="{{ gig.fullDate }}">
+        <div class="gig__date">
+          {{ gig.day }}
+          {{ gig.month | safe }}
+        </div>
 
-      <div>
-        <div class="gig__location">{{ gig.location }}</div>
-        <div class="gig__city">{{ gig.city }}</div>
-      </div>
+        <div>
+          <div class="gig__location">{{ gig.location }}</div>
+          <div class="gig__city">{{ gig.city }}</div>
+        </div>
 
-      {% if gig.href %}
-        <a class="gig__link" href="{{ gig.href }}">Meer info</a>
-      {% endif %}
-    </li>
-  {%- endfor -%}
+        {% if gig.href %}
+          <a class="gig__link" href="{{ gig.href }}">Meer info</a>
+        {% endif %}
+      </li>
+    {%- endfor -%}
+
+  {% endfor %}
 </ol>

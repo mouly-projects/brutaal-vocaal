@@ -1,30 +1,137 @@
 {
-  "gigs": [
+  "years": [
     {
-      "fullDate": "13-06-2019",
-      "day": "13",
-      "month": "Jun",
-      "location": "Korendag ",
-      "city": "Monnickendam",
-      "href": "",
-      "past": true
+      "label": "2020",
+      "gigs": [
+        {
+          "fullDate": "29-03-2020",
+          "day": "29",
+          "month": "Mar",
+          "location": "Voorjaarsconcert - Ruinekerk (aanvang 15.00 uur)",
+          "city": "Bergen",
+          "href": "",
+          "past": false
+        },
+        {
+          "fullDate": "13-07-2020",
+          "day": "13",
+          "month": "Jun",
+          "location": "Korendag",
+          "city": "Monnickendam",
+          "href": "",
+          "past": false
+        }
+      ]
     },
     {
-      "fullDate": "26-10-2019",
-      "day": "26",
-      "month": "Okt",
-      "location": "Kunsttiendaagse - tijdens de fietskunstroute",
-      "city": "Bergen",
-      "href": "",
-      "past": true
+      "label": "2019",
+      "gigs": [
+        {
+          "fullDate": "25-05-2019",
+          "day": "25",
+          "month": "Mei",
+          "location": "Korendag",
+          "city": "Monnickendam",
+          "href": "",
+          "past": true
+        },
+        {
+          "fullDate": "26-10-2019",
+          "day": "26",
+          "month": "Okt",
+          "location": "Kunsttiendaagse - tijdens de fietskunstroute",
+          "city": "Bergen",
+          "href": "",
+          "past": true
+        }
+      ]
     },
     {
-      "fullDate": "01-01-2020",
-      "day": "29",
-      "month": "Mrt",
-      "location": "Voorjaarsconcert - Tijd voor liefde, lente en leven",
-      "city": "Ruïnekerk, Bergen",
-      "href": ""
+      "label": "2018",
+      "gigs": [
+        {
+          "fullDate": "27-04-2018",
+          "day": "27",
+          "month": "Apr",
+          "location": "Koningsdag - Ruinekerk",
+          "city": "Bergen",
+          "href": "",
+          "past": true
+        },
+        {
+          "fullDate": "02-06-2018",
+          "day": "02",
+          "month": "Jun",
+          "location": "Korendag",
+          "city": "Monnickendam",
+          "href": "",
+          "past": true
+        },
+        {
+          "fullDate": "15-12-2018",
+          "day": "15",
+          "month": "Dec",
+          "location": "Kerstconcert - Vredeskerkje",
+          "city": "Bergen aan Zee",
+          "href": "",
+          "past": true
+        }
+      ]
+    },
+    {
+      "label": "2017",
+      "gigs": [
+        {
+          "fullDate": "27-04-2017",
+          "day": "27",
+          "month": "Apr",
+          "location": "Koningsdag - Ruinekerk",
+          "city": "Bergen",
+          "href": "",
+          "past": true
+        },
+        {
+          "fullDate": "",
+          "day": "22-29",
+          "month": "Jul",
+          "location": "Kerkentour",
+          "city": "Frankrijk",
+          "href": "",
+          "past": true
+        }
+      ]
+    },
+    {
+      "label": "2016",
+      "gigs": [
+        {
+          "fullDate": "27-02-2016",
+          "day": "27",
+          "month": "Apr",
+          "location": "Koningsdag - Ruinekerk",
+          "city": "Bergen",
+          "href": "",
+          "past": true
+        },
+        {
+          "fullDate": "15-12-2016",
+          "day": "15",
+          "month": "Dec",
+          "location": "Kerstconcert - Vrouwen van nu",
+          "city": "Broek op Langedijk",
+          "href": "",
+          "past": true
+        },
+        {
+          "fullDate": "17-12-2016",
+          "day": "17",
+          "month": "Dec",
+          "location": "Kerstconcert - Ruinekerk",
+          "city": "Bergen",
+          "href": "",
+          "past": true
+        }
+      ]
     }
   ]
 }

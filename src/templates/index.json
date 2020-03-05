@@ -34,5 +34,22 @@
       "Brutaal Vocaal schroomt niet om liedjes en of teksten aan te passen aan het bedrijf of gezelschap waarvoor het optreedt.",
       "Tevens is Brutaal Vocaal in te huren voor een zogenaamd “Flitzzzz Concert”. Een kort optreden, als onvergetelijk moment, voor bijvoorbeeld je vriend of vriendin; een opening van een expositie; een huiskamerconcert. Alles is mogelijk."
     ]
+  },
+  "images": {
+    "title": "Foto's",
+    "images": [
+      {
+        "src": "/static/img/koor.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/poster-voorjaarsconcert.jpg.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/static/img/koor.jpg",
+        "alt": ""
+      }
+    ]
   }
 }

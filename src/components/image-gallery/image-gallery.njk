@@ -1,0 +1,7 @@
+<div class="image-gallery">
+  {% for image in images %}
+    <picture class="image-gallery__picture">
+      <img class="image-gallery__img" src="{{ image.src }}" alt="{{ image.alt }}">
+    </picture>
+  {% endfor %}
+</div>
