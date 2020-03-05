@@ -1,0 +1,17 @@
+{% extends '../layout/default.njk' %}
+
+{% block body %}
+  {%- component 'header', header -%}
+
+  <main>
+    <div class="constrain-max">
+      {%- component 'entry', concertText -%}
+    </div>
+
+    <div class="page-item">
+      <div class="constrain-max">
+        <img src="/static/img/poster-voorjaarsconcert.jpg" alt="">
+      </div>
+    </div>
+  </main>
+{% endblock %}
