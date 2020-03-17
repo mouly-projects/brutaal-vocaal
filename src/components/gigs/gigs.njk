@@ -18,6 +18,9 @@
         <div>
           <div class="gig__location">{{ gig.location }}</div>
           <div class="gig__city">{{ gig.city }}</div>
+          {% if gig.note %}
+            <p class="gig__note">{{ gig.note }}</p>
+          {% endif %}
         </div>
 
         {% if gig.href %}

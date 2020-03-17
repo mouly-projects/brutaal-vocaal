@@ -42,6 +42,10 @@
       background-color: darken($color-secondary, 20);
     }
   }
+  &__note {
+    margin: $spacing-s 0 0;
+    font-style: italic;
+  }
 
   &--past {
     color: $color-grey;
